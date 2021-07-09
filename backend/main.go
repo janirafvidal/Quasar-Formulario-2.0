@@ -26,8 +26,8 @@ func msgSubscriber(msg *psgo.Msg) {
 
 func getUsers(msg *psgo.Msg) {
 	userList := []map[string]interface{}{
-		{"name": "Alex", "age": 21, "email": "a.petru@nayarsystems.com", "phone": 689632214, "address": "Castellón", "isAdmin": true},
-		{"name": "Jan", "age": 19, "email": "janira@nayarsystems.com", "phone": 654872315, "address": "Castellón", "isAdmin": true},
+		{"name": "Alex", "age": 21, "email": "alex@mail.com", "phone": 689632214, "address": "Castellón", "isAdmin": true},
+		{"name": "Jan", "age": 19, "email": "janira@mail.com", "phone": 654872315, "address": "Castellón", "isAdmin": true},
 		{"name": "Jorge", "age": 48, "email": "jorge@mail.com", "phone": 633254789, "address": "Valencia", "isAdmin": false},
 		{"name": "María", "age": 36, "email": "maria@mail.com", "phone": 655887441, "address": "Alicante", "isAdmin": true},
 		{"name": "Samantha", "age": 18, "email": "samantha@mail.com", "phone": 633225417, "address": "Madrid", "isAdmin": false},
