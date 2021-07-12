@@ -15,8 +15,8 @@
       </q-dialog>
     </div>
 
-    <div class="justify-center row col-8">
-      <q-list bordered class="rounded-borders">
+    <div class="justify-center row>
+      <q-list bordered class="rounded-borders  col-8"">
         <q-expansion-item v-for="(user, id) in userList" :key="id">
           <template v-slot:header>
             <q-item-section avatar>
